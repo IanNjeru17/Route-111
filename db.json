@@ -10,5 +10,52 @@
       "username": "madrista",
       "password": "123"
     }
-  ]
+  ],
+  "buses": [
+      {
+        "id": "1",
+        "reg": "KDk 257 G",
+        "capacity": 33,
+        "departure": "04:00PM",
+        "seats_booked": 27,
+        "description": "Economical,fast and reliable",
+        "poster": "/images/Dk.jpeg"
+      },
+      {
+      "id": "2",
+      "reg": "KDl 210 E",
+      "capacity": 33,
+      "departure": "03:00PM",
+      "seats_booked": 0,
+      "description": "Economical,fast and reliable",
+      "poster": "https://x.com/SuperMetro_Ke/status/1624314766247309313/photo/2"
+      },
+      {
+        "id": "3",
+        "reg": "KDA 220 5",
+        "capacity": 33,
+        "departure": "04:30PM",
+        "seats_booked": 0,
+        "description": "Economical,fast and reliable",
+        "poster": "https://x.com/SuperMetro_Ke/status/1624314766247309313/photo/2"
+        },
+        {
+          "id": "4",
+          "reg": "Kcz 200 A",
+          "capacity": 33,
+          "departure": "05:30PM",
+          "seats_booked": 32,
+          "description": "Economical,fast and reliable",
+          "poster": "https://x.com/SuperMetro_Ke/status/1624314766247309313/photo/2"
+          },
+          {
+            "id": "5",
+            "reg": "KDE 701 Z",
+            "capacity": 33,
+            "departure": "06:00PM",
+            "seats_booked": 30,
+            "description": "Economical,fast and reliable",
+            "poster": "https://x.com/SuperMetro_Ke/status/1624314766247309313/photo/2"
+            }
+    ]
 }
