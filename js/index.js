@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
             if (user) {
                 document.getElementById('loginMessage').textContent = 'Login successful!';
-                window.location.href = 'html/home.html';
+                window.location.href = '/html/home.html';
             } else {
                 document.getElementById('loginMessage').textContent = 'Invalid username or password.';
             }

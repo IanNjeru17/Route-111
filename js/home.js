@@ -14,7 +14,7 @@ function displayBusesMenu(buses) {
     busesUl.innerHTML = ""; // Clear any existing item
     buses.forEach((busList) => {
         const li = document.createElement("li");
-        li.className = "bus item";
+        li.className = "bus-item"; // madrista
         li.innerText = busList.reg;
         li.addEventListener("click", () => displayBusesDetails(busList));
         busesUl.appendChild(li);

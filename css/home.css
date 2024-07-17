@@ -1,4 +1,4 @@
-/* body {
+/* /* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,23 +8,31 @@
     background-color: #323a7a;
     color: #333;
   }
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
 .navbar {
-    overflow: hidden;
-    background-color: #8a4848;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1em;
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; /* Ensure the navbar is above other content */
 }
 
 .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    color: white;
     text-decoration: none;
-    margin-left: 100px;
-    
+    padding: 14px 20px;
+    text-align: center;
 }
-
 
 .navbar a:hover {
     background-color: #ddd;
@@ -32,100 +40,81 @@
 }
 
 .navbar a.active {
-    background-color: #432dc0;
+    background-color: #04AA6D;
     color: white;
 }
 
-.content {
-    padding: 10px;
-    
-} */
-/* General styles */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+#container {
     display: flex;
-    height: 100vh;
+    margin: 70px 20px 20px 20px;
 }
 
-.container {
-    display: flex;
-    width: 100%;
-}
-
-/* Sidebar styles */
 #busesSideBar {
+    width: 200px;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    width: 200px;
-    background-color: #333;
-    overflow-y: auto;
-    height: 100vh;
 }
 
 #busesSideBar li {
-    padding: 15px;
+    background-color: #04AA6D;
     color: white;
+    padding: 10px;
+    margin-bottom: 5px;
     cursor: pointer;
-    border-bottom: 1px solid #444;
 }
 
 #busesSideBar li:hover {
-    background-color: #575757;
+    background-color: #ddd;
+    color: black;
 }
 
-/* Bus details styles */
 #buses-info {
-    flex: 1;
+    flex-grow: 1;
     padding: 20px;
     background-color: white;
-    overflow-y: auto;
-    height: 100vh;
+    border: 1px solid #ccc;
+    margin-left: 20px;
 }
 
 #buses-info img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    max-width: 50%;
+    height: 40%;
 }
 
-#buses-info h2 {
-    color: #333;
-    margin-top: 0;
-}
-
-#buses-info p {
-    color: #555;
-    margin: 10px 0;
-}
-
-/* Buy ticket button styles */
 #buy-ticket {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #04AA6D;
     color: white;
-    background-color: #28a745;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
-}
-
-#buy-ticket.sold-out {
-    background-color: #dc3545;
-    cursor: not-allowed;
 }
 
 #buy-ticket:hover {
-    background-color: #218838;
+    background-color: #ddd;
+    color: black;
 }
 
-#buy-ticket.sold-out:hover {
-    background-color: #c82333;
+.descript {
+    background-color: rgb(90, 89, 86);
+    text-align: center;
+    padding: 60px;
+    flex: 1;
+}
+
+#about-us {
+    text-align: center;
+}
+
+.style {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-image {
+    margin-right: 20px;
 }
 
