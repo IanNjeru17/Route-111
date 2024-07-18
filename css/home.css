@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     align-items: flex-start;
+    background: url(/images/metrobus2.jpeg) no-repeat center center fixed;
 }
 
 .navbar {
@@ -12,8 +13,9 @@ body {
     background-color: #b15a5a;
     padding: 1em;
     position: fixed; /*fixed at the top*/
-    width: 100%; 
+    width: 95%; 
     top: 0; 
+    margin: 5px 0px 10px 20px;
     z-index: 1000; /*navbar is above other content */
 }
 
@@ -24,7 +26,6 @@ body {
     text-align: center;
     margin: 0px 0px 0px 0px;
 }
-
 .navbar a:hover {
     background-color: #ddd;
     color: black;
@@ -67,6 +68,9 @@ body {
     background-color: rgb(211, 204, 138);
     border: 1px solid #ccc;
     margin-top: 20px;
+    margin-left: 10px;
+    
+    
 }
 
 #buses-info img {
@@ -89,15 +93,20 @@ body {
     color: black;
 }
 
-.descript {
-    background-color: rgb(90, 89, 86);
-    text-align: center;
-    padding: 60px;
-    flex: 1;
+#description {
+   
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgb(6, 13, 78);
+    border: 1px solid #ccc;
+    margin: 10px;
+    
 }
 
 #about-us {
     text-align: center;
+    color: #d60e0e;
+
 }
 .h3{
     text-align: center;
@@ -108,6 +117,7 @@ body {
     margin: 20px;
     align-items: center;
     justify-content: space-between;
+    background-color: antiquewhite;
 }
 
 .about-image {
@@ -117,8 +127,13 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 40 0 0;
 }
+.contact-us h3{
+    text-align: center;
+    width: 100%;
+}
+
 .social-icons li {
     margin: 0 10px;
 }
@@ -137,8 +152,34 @@ body {
     margin-top: 20px;
 }
 .accounts {
-    margin-right: 20px; /* Adjust spacing between contact details and social icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 49, 116);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto; /* Center horizontally */
+    max-width: 600px; /* Adjust width if needed */
 }
+.location{
+    text-align: center;
+    color: #0704aa;
+    margin: 20px;
+}
+
 .accounts p {
     margin: 5px 0; /* Adjust spacing between contact details */
+}
+#text-center{
+    text-align: center;
+    align-items: center;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 9px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
