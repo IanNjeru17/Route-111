@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3000/buses")
+    fetch("http://localhost:3001/buses")
         .then((response) => response.json())
         .then((buses) => {
             displayBusesMenu(buses);
@@ -35,6 +35,10 @@ function displayBusesDetails(busList) {
     const departure = document.createElement("p");
     departure.innerText = `Departure: ${busList.departure}`;
 
+    // pick up point
+    const description = document.createElement("p");
+    description.innerText = `Pick Up: ${busList.description}`;
+
     // Create available seats
     const availableSeats = busList.capacity - busList.seats_booked;
     const seats = document.createElement("p");
@@ -56,6 +60,7 @@ function displayBusesDetails(busList) {
     busDetailContainer.appendChild(poster);
     busDetailContainer.appendChild(reg);
     busDetailContainer.appendChild(departure);
+    busDetailContainer.appendChild(description);
     busDetailContainer.appendChild(seats);
     busDetailContainer.appendChild(buyTicketButton);
 }

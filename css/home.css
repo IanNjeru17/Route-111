@@ -1,30 +1,20 @@
-/* /* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #323a7a;
-    color: #333;
-  }
-*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    align-items: flex-start;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: #333;
+    background-color: #b15a5a;
     padding: 1em;
-    position: fixed; 
+    position: fixed; /*fixed at the top*/
     width: 100%; 
     top: 0; 
-    z-index: 1000; /* Ensure the navbar is above other content */
+    z-index: 1000; /*navbar is above other content */
 }
 
 .navbar a {
@@ -32,6 +22,7 @@ body {
     text-decoration: none;
     padding: 14px 20px;
     text-align: center;
+    margin: 0px 0px 0px 0px;
 }
 
 .navbar a:hover {
@@ -40,7 +31,7 @@ body {
 }
 
 .navbar a.active {
-    background-color: #04AA6D;
+    background-color: #2d1fb1;
     color: white;
 }
 
@@ -53,14 +44,16 @@ body {
     width: 200px;
     list-style-type: none;
     padding: 0;
+    margin-top: 20px;
 }
 
 #busesSideBar li {
-    background-color: #04AA6D;
+    background-color: #232f9c;
     color: white;
     padding: 10px;
     margin-bottom: 5px;
     cursor: pointer;
+    
 }
 
 #busesSideBar li:hover {
@@ -71,9 +64,9 @@ body {
 #buses-info {
     flex-grow: 1;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(211, 204, 138);
     border: 1px solid #ccc;
-    margin-left: 20px;
+    margin-top: 20px;
 }
 
 #buses-info img {
@@ -106,6 +99,9 @@ body {
 #about-us {
     text-align: center;
 }
+.h3{
+    text-align: center;
+}
 
 .style {
     display: flex;
@@ -117,4 +113,32 @@ body {
 .about-image {
     margin-right: 20px;
 }
-
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-icons li {
+    margin: 0 10px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #000; /* Default icon color */
+    font-size: 24px; /* Adjust the size of the icons */
+}
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
+.contact-social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.accounts {
+    margin-right: 20px; /* Adjust spacing between contact details and social icons */
+}
+.accounts p {
+    margin: 5px 0; /* Adjust spacing between contact details */
+}
