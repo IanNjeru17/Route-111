@@ -9,19 +9,34 @@
       "id": "0a52",
       "username": "madrista",
       "password": "123"
+    },
+    {
+      "id": "7ef3",
+      "username": "njeru",
+      "password": "123"
+    },
+    {
+      "id": "75aa",
+      "username": "karukenya",
+      "password": "123"
+    },
+    {
+      "id": "b65a",
+      "username": "iano",
+      "password": "123"
     }
   ],
   "buses": [
-      {
-        "id": "1",
-        "reg": "KDK 257 G",
-        "capacity": 33,
-        "departure": "04:00PM",
-        "seats_booked": 33,
-        "description": "Clay house",
-        "poster": "/images/Dk.jpeg"
-      },
-      {
+    {
+      "id": "1",
+      "reg": "KDK 257 G",
+      "capacity": 33,
+      "departure": "04:00PM",
+      "seats_booked": 32,
+      "description": "Clay house",
+      "poster": "/images/Dk.jpeg"
+    },
+    {
       "id": "2",
       "reg": "KCZ 255 L",
       "capacity": 33,
@@ -29,106 +44,105 @@
       "seats_booked": 0,
       "description": "Safaricom",
       "poster": "/images/Cz.jpeg"
-      },
-      {
-        "id": "3",
-        "reg": "KDC 399 M",
-        "capacity": 33,
-        "departure": "04:30PM",
-        "seats_booked": 0,
-        "description": "Lane 10",
-        "poster": "/images/Dc.jpeg"
-        },
-       {
-          "id": "4",
-          "reg": "KDG 087 Q",
-          "capacity": 33,
-          "departure": "05:30PM",
-          "seats_booked": 33,
-          "description": "Safaricom",
-          "poster": "/images/Dg.jpeg"
-          },
-          {
-            "id": "5",
-            "reg": "KDM 323 E",
-            "capacity": 33,
-            "departure": "05:30PM",
-            "seats_booked": 30,
-            "description": "Clay house",
-            "poster": "/images/Dh.jpeg"
-            },
-            {
-              "id": "6",
-              "reg": "KDL 362 F",
-              "capacity": 33,
-              "departure": "06:00PM",
-              "seats_booked": 22,
-              "description": "Clay house",
-              "poster": "/images/Dl.jpeg"
-              },
-              {
-                "id": "7",
-                "reg": "KDL 366 F",
-                "capacity": 33,
-                "departure": "06:00PM",
-                "seats_booked": 3,
-                "description": "Lane 10",
-                "poster": "/images/Dl366.jpeg"
-                },
-                {
-                  "id": "8",
-                  "reg": "KDP 119 T",
-                  "capacity": 33,
-                  "departure": "06:00PM",
-                  "seats_booked": 31,
-                  "description": "Safaricom",
-                  "poster": "/images/Dp.jpeg"
-                  },
-                  {
-                    "id": "9",
-                    "reg": "KCY 057 W",
-                    "capacity": 33,
-                    "departure": "06:00PM",
-                    "seats_booked": 30,
-                    "description": "Clay house",
-                    "poster": "/images/cy.jpeg"
-                    },
-                    {
-                      "id": "10",
-                      "reg": "KDJ 597 X",
-                      "capacity": 33,
-                      "departure": "06:00PM",
-                      "seats_booked": 25,
-                      "description": "Safaricom",
-                      "poster": "/images/Dj.jpg"
-                      },
-                      {
-                        "id": "11",
-                        "reg": "KDP 128 S",
-                        "capacity": 33,
-                        "departure": "05:30PM",
-                        "seats_booked": 10,
-                        "description": "Lane 10",
-                        "poster": "/images/ivy.jpeg"
-                        },
-                        {
-                          "id": "12",
-                          "reg": "KDH 115 H",
-                          "capacity": 33,
-                          "departure": "06:00PM",
-                          "seats_booked": 30,
-                          "description": "Lane 10",
-                          "poster": "/images/kam.webp"
-                          },
-                          {
-                            "id": "13",
-                            "reg": "KDG 229 Q",
-                            "capacity": 33,
-                            "departure": "06:00PM",
-                            "seats_booked": 30,
-                            "description": "Clay house",
-                            "poster": "/images/shalom.jpeg"
-                            }
-
-    ]
+    },
+    {
+      "id": "3",
+      "reg": "KDC 399 M",
+      "capacity": 33,
+      "departure": "04:30PM",
+      "seats_booked": 0,
+      "description": "Lane 10",
+      "poster": "/images/Dc.jpeg"
+    },
+    {
+      "id": "4",
+      "reg": "KDG 087 Q",
+      "capacity": 33,
+      "departure": "05:30PM",
+      "seats_booked": 33,
+      "description": "Safaricom",
+      "poster": "/images/Dg.jpeg"
+    },
+    {
+      "id": "5",
+      "reg": "KDM 323 E",
+      "capacity": 33,
+      "departure": "05:30PM",
+      "seats_booked": 30,
+      "description": "Clay house",
+      "poster": "/images/Dh.jpeg"
+    },
+    {
+      "id": "6",
+      "reg": "KDL 362 F",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 22,
+      "description": "Clay house",
+      "poster": "/images/Dl.jpeg"
+    },
+    {
+      "id": "7",
+      "reg": "KDL 366 F",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 3,
+      "description": "Lane 10",
+      "poster": "/images/Dl366.jpeg"
+    },
+    {
+      "id": "8",
+      "reg": "KDP 119 T",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 31,
+      "description": "Safaricom",
+      "poster": "/images/Dp.jpeg"
+    },
+    {
+      "id": "9",
+      "reg": "KCY 057 W",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 30,
+      "description": "Clay house",
+      "poster": "/images/cy.jpeg"
+    },
+    {
+      "id": "10",
+      "reg": "KDJ 597 X",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 25,
+      "description": "Safaricom",
+      "poster": "/images/Dj.jpg"
+    },
+    {
+      "id": "11",
+      "reg": "KDP 128 S",
+      "capacity": 33,
+      "departure": "05:30PM",
+      "seats_booked": 10,
+      "description": "Lane 10",
+      "poster": "/images/ivy.jpeg"
+    },
+    {
+      "id": "12",
+      "reg": "KDH 115 H",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 30,
+      "description": "Lane 10",
+      "poster": "/images/kam.webp"
+    },
+    {
+      "id": "13",
+      "reg": "KDG 229 Q",
+      "capacity": 33,
+      "departure": "06:00PM",
+      "seats_booked": 30,
+      "description": "Clay house",
+      "poster": "/images/shalom.jpeg"
+    }
+  ]
 }

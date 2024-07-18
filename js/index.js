@@ -30,7 +30,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
     const username = document.getElementById('signupUsername').value;
     const password = document.getElementById('signupPassword').value;
 
-    fetch('http://localhost:3000/users')
+    fetch('http://localhost:3001/users')
         .then(response => response.json())
         .then(users => {
             const userExists = users.some(user => user.username === username);
@@ -40,7 +40,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
             } else {
                 const newUser = { username: username, password: password };
 
-                fetch('http://localhost:3000/users', {
+                fetch('http://localhost:3001/users', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

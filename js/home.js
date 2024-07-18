@@ -47,13 +47,13 @@ function displayBusesDetails(busList) {
     // Create button
     const buyTicketButton = document.createElement("button");
     buyTicketButton.id = "buy-ticket";
-    buyTicketButton.innerText = availableSeats === 0 ? "Sold out" : "Buy Ticket";
+    buyTicketButton.innerText = availableSeats === 0 ? "Sold out" : "Book";
 
     buyTicketButton.addEventListener("click", () => {
         if (availableSeats > 0) {
             busList.seats_booked += 1;
             seats.innerText = `Available Seats: ${busList.capacity - busList.seats_booked}`;
-            buyTicketButton.innerText = busList.capacity - busList.seats_booked === 0 ? "Sold Out" : "Buy Ticket";
+            buyTicketButton.innerText = busList.capacity - busList.seats_booked === 0 ? "Sold Out" : "Book";
         }
     });
 
