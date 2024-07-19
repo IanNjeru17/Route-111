@@ -9,7 +9,8 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-evenly;
     background-color: #b15a5a;
     padding: 1em;
     position: fixed; /*fixed at the top*/
@@ -68,15 +69,19 @@ body {
     background-color: rgb(211, 204, 138);
     border: 1px solid #ccc;
     margin-top: 20px;
-    margin-left: 10px;
-    
+    margin-left: 20px;
+    text-align: center; 
     
 }
 
 #buses-info img {
     max-width: 50%;
     height: 40%;
+    margin-left: 40px;
+    
+    
 }
+
 
 #buy-ticket {
     display: block;
@@ -86,6 +91,8 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    margin-left: 500px;
+    
 }
 
 #buy-ticket:hover {

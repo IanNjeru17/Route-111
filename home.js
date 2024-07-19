@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3001/buses")
+    fetch("http://localhost:3000/buses")
         .then((response) => response.json())
         .then((buses) => {
             displayBusesMenu(buses);
         });
+
 });
 
 // Create busDetailContainer variable
@@ -47,13 +48,14 @@ function displayBusesDetails(busList) {
     // Create button
     const buyTicketButton = document.createElement("button");
     buyTicketButton.id = "buy-ticket";
-    buyTicketButton.innerText = availableSeats === 0 ? "Sold out" : "Book";
+    buyTicketButton.innerText = availableSeats === 0 ? "Booked out" : "Book";
 
     buyTicketButton.addEventListener("click", () => {
         if (availableSeats > 0) {
             busList.seats_booked += 1;
             seats.innerText = `Available Seats: ${busList.capacity - busList.seats_booked}`;
-            buyTicketButton.innerText = busList.capacity - busList.seats_booked === 0 ? "Sold Out" : "Book";
+            buyTicketButton.innerText = busList.capacity - busList.seats_booked === 0 ? "Booked Out" : "Book";
+            buyTicketButton.disabled = busList.capacity - busList.seats_booked === 0;
         }
     });
 
