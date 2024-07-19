@@ -1,14 +1,12 @@
 {
   "name": "route-111",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "super-metro",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Karukenya Njeru",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^1.0.0-beta.1"
-  }
+  "author": "Ian Karukenya",
+  "license": "ISC"
 }
