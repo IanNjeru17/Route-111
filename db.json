@@ -1,31 +1,4 @@
-{
-  "users": [
-    {
-      "id": "1",
-      "username": "test",
-      "password": "test"
-    },
-    {
-      "id": "0a52",
-      "username": "madrista",
-      "password": "123"
-    },
-    {
-      "id": "7ef3",
-      "username": "njeru",
-      "password": "123"
-    },
-    {
-      "id": "75aa",
-      "username": "karukenya",
-      "password": "123"
-    },
-    {
-      "id": "b65a",
-      "username": "iano",
-      "password": "123"
-    }
-  ],
+{ 
   "buses": [
     {
       "id": "1",
