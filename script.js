@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3000/buses")
+    fetch("https://my-json-server.typicode.com/IanNjeru17/db.json/buses")
         .then((response) => response.json())
         .then((buses) => {
             displayBusesMenu(buses);
